@@ -1454,6 +1454,22 @@ textarea.form-control {
   }
 }
 
+.nav-light {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 23px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.nav-dark {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 23px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 15px; 
+}
+
 @media (max-width: 1024px) {
   .home-img img {
     left: 0px !important;
