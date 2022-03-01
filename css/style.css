@@ -700,7 +700,7 @@ b, strong {
 
 .navbar-custom .navbar-nav li a {
   line-height: 26px;
-  color: rgba(255, 255, 255, 0.6);
+  color: #3560b698;
   font-size: 14px;
   text-transform: capitalize;
   transition: all 0.5s;
@@ -737,8 +737,8 @@ b, strong {
 .navbar-custom .navbar-nav li.active a,
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li a:active {
-  color: #ffffff !important;
-  border-top: 2px solid #ffffff;
+  color: #3560b6 !important;
+  border-top: 2px solid #3560b6;
 }
 
 .navbar-toggle {
@@ -800,7 +800,7 @@ b, strong {
 }
 
 .nav-sticky .navbar-nav li a {
-  color: #0e2a47 !important;
+  color: #2012C3 !important;
 }
 
 .nav-sticky .btn-custom-light {
@@ -1372,7 +1372,7 @@ textarea.form-control {
 }
 
 .bg-footer {
-  background: linear-gradient(to top, #0c077f, #6761ff);
+  background: linear-gradient(to top, #b8b8bb, #eaeaeb);
 }
 
 .footer-social i {
@@ -1383,6 +1383,22 @@ textarea.form-control {
 
 .footer-social i:hover {
   color: #ffffff;
+  font-size: 30px;
+}
+.clr-fb{
+  color:#2012C3 !important;
+}
+.clr-tr{
+  color:#12a5db !important;
+}
+.clr-ig{
+  color:#d40778 !important;
+}
+.clr-pr{
+  color:#970000 !important;
+}
+.clr-yt{
+  color:#970303 !important;
 }
 
 .footer-link a {
@@ -1399,6 +1415,18 @@ textarea.form-control {
 .footer-alt {
   padding-top: 2.25rem;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-nav a,
+.footer-nav a:hover,
+.footer-nav a:active,
+.footer-nav span {
+  color: #3560b6 !important;
+  margin-right:20px;
+}
+
+.footer-text{
+  width:fit-content;
 }
 
 @media (min-width: 200px) and (max-width: 768px) {
@@ -1458,7 +1486,7 @@ textarea.form-control {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 23px;
   font-weight: bold;
-  color: #ffffff;
+  color: #3560b6;
   margin-top: 15px;
 }
 
@@ -1466,8 +1494,14 @@ textarea.form-control {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 23px;
   font-weight: bold;
-  color: #000000;
+  color: #3560b6;
   margin-top: 15px; 
+}
+.title-style-font{
+  font-family:'Courier New';
+  font-size:25px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 @media (max-width: 1024px) {
